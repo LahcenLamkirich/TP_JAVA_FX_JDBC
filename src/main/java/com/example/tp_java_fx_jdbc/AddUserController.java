@@ -77,7 +77,7 @@ public class AddUserController implements Initializable {
 
             if(nom.isEmpty() || prenom.isEmpty() || adresse.isEmpty() || tel.isEmpty() || email.isEmpty() || fonction.isEmpty()) {
                 Alert alert = new Alert(Alert.AlertType.ERROR) ;
-                alert.setContentText("PLEASE FILL IN THE BLANKS !!");
+                alert.setContentText("Please Fill in the blanks !!");
                 alert.showAndWait();
             } else {
                 try {
