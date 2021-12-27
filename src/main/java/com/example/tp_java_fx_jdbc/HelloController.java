@@ -59,6 +59,7 @@ public class HelloController implements Initializable{
 
         @Override
         public void initialize(URL url, ResourceBundle resourceBundle){
+            getUserList().clear();
             showUsers();
         }
 
@@ -86,6 +87,9 @@ public class HelloController implements Initializable{
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
+            getUserList().clear();
+            showUsers();
         }
 
         // la declaration de la fonction search :
