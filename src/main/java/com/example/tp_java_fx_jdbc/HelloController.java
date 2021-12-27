@@ -170,7 +170,6 @@ public class HelloController implements Initializable{
            fonctionTableViewId.setCellValueFactory(new PropertyValueFactory<Users, String>("function"));
 
            tableViewId.setItems(list);
-           System.out.println("Show Users in table View Done !");
 
        }
 
