@@ -171,6 +171,7 @@ public class HelloController implements Initializable{
 
            tableViewId.setItems(list);
            System.out.println("M just testing github here !");
+
        }
 
 }
